@@ -3,7 +3,7 @@ import Keys._
 import Modules._
 import Libraries._
 
-object EngineCommon extends BaseModule("common") {
+object EngineModel extends BaseModule("model") {
   val settings = Seq ()
 
   def project = baseProject

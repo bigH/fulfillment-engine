@@ -3,10 +3,10 @@ import Keys._
 import Modules._
 import Libraries._
 
-object EngineAdapter extends BaseModule("adapter") {
+object EngineAssembly extends BaseModule("assembly") {
   val settings = Seq ()
 
-  def project = baseProject dependsOn (api, common)
+  def project = baseProject
 
   lazy val libraries = Seq ()
 }

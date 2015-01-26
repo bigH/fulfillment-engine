@@ -10,10 +10,12 @@ object RootModule {
     settings = moduleSettings
   ) aggregate (
     adapter,
+    model,
     api,
     implAngies,
     implDrools,
-    implSf
+    implSf,
+    assembly
   )
 
   val moduleSettings =

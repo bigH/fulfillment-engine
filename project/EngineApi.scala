@@ -6,7 +6,7 @@ import Libraries._
 object EngineApi extends BaseModule("api") {
   val settings = Seq ()
 
-  def project = baseProject
+  def project = baseProject dependsOn common
 
   lazy val libraries = Seq ()
 }
