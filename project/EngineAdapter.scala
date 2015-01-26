@@ -6,7 +6,7 @@ import Libraries._
 object EngineAdapter extends BaseModule("adapter") {
   val settings = Seq ()
 
-  def project = baseProject dependsOn (api, common)
+  def project = baseProject dependsOn (api, model)
 
   lazy val libraries = Seq ()
 }
